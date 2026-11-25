@@ -1,0 +1,6 @@
+psycopg[binary]>=3.2      # driver PostgreSQL
+requests>=2.32            # client HTTP (mTLS + Basic Auth)
+defusedxml>=0.7           # parsing XML sicuro
+cryptography>=42          # certificati: conversione .p12 e server finto
+python-dotenv>=1.0        # lettura del file .env
+pytest>=8.0               # test
